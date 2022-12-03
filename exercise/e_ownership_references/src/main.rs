@@ -56,7 +56,7 @@ fn inspect(string: &String) {
         println!("{} is a singular word.", string) }
 }
 
-fn change(mut string: &mut String) {
+fn change(string: &mut String) {
     if string.ends_with("s") {
         return
     } else {
